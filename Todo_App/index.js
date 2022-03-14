@@ -18,7 +18,7 @@ for (i = 0; i < close.length; i++) {
   };
 }
 
-// Add a "checked" symbol when clicking on a list item
+
 var list = document.querySelector("ul");
 list.addEventListener(
   "click",
