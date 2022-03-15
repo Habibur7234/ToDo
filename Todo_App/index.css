@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -62,7 +61,7 @@ ul li.checked {
 
 /* Add a "checked" mark when clicked on */
 ul li.checked::before {
-  content: '';
+  content: "";
   position: absolute;
   border-color: #fff;
   border-style: solid;

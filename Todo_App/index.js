@@ -8,7 +8,6 @@ for (i = 0; i < myNodelist.length; i++) {
   myNodelist[i].appendChild(span);
 }
 
-// Click on a close button to hide the current list item
 var close = document.getElementsByClassName("close");
 var i;
 for (i = 0; i < close.length; i++) {
@@ -17,7 +16,6 @@ for (i = 0; i < close.length; i++) {
     div.style.display = "none";
   };
 }
-
 
 var list = document.querySelector("ul");
 list.addEventListener(
